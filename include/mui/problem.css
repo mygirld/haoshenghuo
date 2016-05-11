@@ -1,0 +1,94 @@
+/*MUI遗留问题 2016-4-28*/
+/*actionsheet（操作表） 
+ */
+问题描述：
+	操作表默认隐藏，并且无法让其显示和切换
+解决方案：
+	操作表属于popover的一种，使用popover方法可以让其显示，隐藏，切换
+  	mui('#sheet1').popover('show');
+
+/*dialog（对话框）
+ */	
+ 问题描述：
+ 	不能获取用户输入的内容，回调函数不能捕获用户的选择
+ 	
+/*图片轮播
+ */
+问题描述：
+	图片不能自动轮播，也不能让其轮播
+解决方案：
+	这个没有问题，当时的问题是在PC的浏览器上，所以不能。如果使用PC浏览器的手机模式，或者使用真实的手机就OK！
+
+/*输入控件
+ */
+问题描述：
+	输入控件中没有添加的删除类和语音类无效
+解决方案：
+添加一个具有 .mui-input-row的父级别div
+<div class="mui-input-row">
+	<input type="text" class="mui-input-clear mui-input-speech" />
+</div>
+
+/*蒙版
+ */	
+ 问题描述：
+ 	在js中执行创建蒙版，显示蒙版操作没有效果
+ 解决方案：
+ 需要一个div,添加一个类.mui-backdrop
+  <div class="mui-backdrop"></div> 	
+  .mui-backdrop类的默认定义：
+  .mui-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 998;
+    background-color: rgba(0,0,0,.3);
+}
+
+
+/*侧滑导航
+ */
+注意事项：
+	不支持拖动手势（跟手拖动）；
+	主页面、菜单不同webview实现，因此若需交互（如：点击菜单触发主页面内容变化），需使用自定义事件实现跨webview通讯；
+	用鼠标模拟手活动的时候，要左键按住鼠标不放，拖动
+	浏览器中不支持滑动
+	
+	可以左右同时滑动:
+		<aside class="mui-off-canvas-right mui-off-canvas-left mui-canva-top">
+问题描述：
+	同时使用左滑动和右滑动的时候，后面的class 导致白条,例如：
+	mui-off-canvas-left mui-off-canvas-right  
+	那么向右滑动的时候，出现的是向左滑动的webview/div 
+解决方案：
+	右滑的时候，去掉左滑动的类，后面再添加
+	
+问题描述：
+	当页面有滑动切换组件gallery的时候，在图片上滑动，是图片切换，而不是会操作到侧边栏。
+解决方案：
+	不用解决，这是正常的用户体验。	
+	
+
+/*popover 弹出菜单
+ */
+JS控制弹出菜单：
+	mui('.mui-popover').popover('toggle');//show hide toggle
+	使用方法：
+		可以在某个function里面调用这个方法，得到js逻辑中控制弹出菜单的目的
+		
+	//直接放在这里不行，因为还没加载DOM，选择不到，所以，要放在 window.oonload=function(){}里面
+		mui('.mui-popover').popover('toggle');//show hide toggle
+				window.onload=function(){
+			mui('.mui-popover').popover('toggle');//show hide toggle	
+		}
+		
+		
+/*单选框
+ */
+问题描述：
+	在选择列表选项的时候，并没有出发select事件
+	
+
+

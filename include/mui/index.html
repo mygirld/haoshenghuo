@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>求职邦</title> 
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <style type="text/css">
+    	#search{
+    		float: right;
+    	}
+    	.footer{
+    		position: absolute;
+    		bottom: 0px;
+    		z-index: 1;
+    		width: 100%;
+    		margin: 0;
+    		padding: 0;
+    	}
+    	.footer li{
+    		display: inline-block;width: 33.3%; height: 40px;line-height: 40px;
+    		border: 1px   solid #DDDDDD;
+    		border-left: 0;
+    		text-align: center;
+    	}
+    	.footer li:hover{
+    		background-color: #DD524D
+    	}
+    	.footer li a{
+    		color: #000000;  
+    	}
+    </style>
+</head>
+<body> 
+<!-- 侧滑导航根容器 -->
+<div class="mui-off-canvas-wrap mui-draggable">
+  <!-- 菜单容器 -->
+  <aside class="mui-off-canvas-left">
+    <div class="mui-scroll-wrapper" style="background-color:#FFFFFF ;">
+      <div class="mui-scroll">
+        <!-- 菜单具体展示内容 -->
+	    <div class="mui-slider" style="width:100%;background: #DDDDDD;text-align: center;">
+		   	<span class="mui-icon mui-icon-contact" style="font-size: 100px;"></span>
+		   	<p><a href="#user" style="color: #222222;font-size: 16px;">求职邦</a></p>
+		</div>
+       <ul class="mui-table-view">
+			<li class="mui-table-view-cell">
+				<a class="mui-navigate-right" href="#">简历</a>
+			</li>
+			<li class="mui-table-view-cell">
+				<a class="mui-navigate-right" href="#">关注的公司</a>
+			</li>
+			<li class="mui-table-view-cell">
+				<a class="mui-navigate-right" href="#">黑名单公司</a>
+			</li>
+			<li class="mui-table-view-cell">
+				<a class="mui-navigate-right" href="#">发表的文章</a>
+			</li>
+			<li class="mui-table-view-cell">
+				<a class="mui-navigate-right" href="#">设置</a>
+			</li>
+			<li class="mui-table-view-cell">
+				<a class="mui-navigate-right" href="#">反馈</a>
+			</li>
+			<li class="mui-table-view-cell">
+				<a class="mui-navigate-right" href="#">QQ群</a>
+			</li>
+		</ul>
+      </div>
+    </div>
+  </aside>
+  <!-- 主页面容器 -->
+  <div class="mui-inner-wrap">
+    <!-- 主页面标题 -->
+    <header class="mui-bar mui-bar-nav">
+        
+        <div class="mui-input-row" style="float: right;display: none;">
+			<input type="text" class="mui-input-clear mui-input-speech" style="height: 30px;padding: 0;padding-left:15px;padding-bottom:1px;sdsdmargin: 0;margin-top: 5px;"/>
+		</div>
+		 <a class="mui-icon mui-action-menu mui-icon-bars mui-pull-left"  ></a>
+		 <span class="mui-icon mui-icon-search" id="search"></span>
+    </header>
+    <div class="mui-content mui-scroll-wrapper">
+      <div class="mui-scroll">
+        <!-- 主界面具体展示内容 -->
+    	<ul class="mui-table-view">
+			<li class="mui-table-view-cell mui-media">
+				<a href="javascript:;">
+					<img class="mui-media-object mui-pull-left" src="images/1.jpg">
+					<div class="mui-media-body">
+						幸福
+						<p class='mui-ellipsis'>能和心爱的人一起睡觉，是件幸福的事情；可是，打呼噜怎么办？</p>
+					</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell mui-media">
+				<a href="javascript:;">
+					<img class="mui-media-object mui-pull-left" src="images/2.jpg">
+					<div class="mui-media-body">
+						木屋
+						<p class='mui-ellipsis'>想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖.</p>
+					</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell mui-media">
+				<a href="javascript:;">
+					<img class="mui-media-object mui-pull-left" src="images/3.jpg">
+					<div class="mui-media-body">
+						CBD
+						<p class='mui-ellipsis'>烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+					</div>
+				</a>
+			</li>
+		</ul>
+      </div>
+    </div>  
+  </div>
+</div>
+<!--底部-->
+<ul class="footer">
+    <li><a href="#">推荐公司</a></li><li><a href="#">骗子公司</a></li><li><a href="#">招聘</a></li>
+</ul>
+<script type="text/javascript" charset="utf-8">
+   	mui.init( );
+   	mui('#sheet1').popover('show');
+   	//获得slider插件对象
+	var gallery = mui('.mui-slider');
+	gallery.slider({
+	  interval:5000//自动轮播周期，若为0则不自动播放，默认为0；
+	});
+</script>
+</body>
+</html>

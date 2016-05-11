@@ -1,0 +1,70 @@
+/*窗口*/
+        .window{
+            position: fixed;
+            left: 0%;
+            top: 0%;
+            right:0;
+            bottom: 0%;
+            z-index: 1040;
+            display: none;
+        }
+        /*弹框*/
+        .window-dialog{
+            width: 600px;
+            height: auto;
+            background: #FFFFFF;
+            border-radius: 2px;
+            margin: 10px auto;
+        }
+        /*弹框头部*/
+        .window-dialog-header{
+            min-height: 16.428571429px;
+            border-bottom: 1px solid #e5e5e5;
+        }
+        /*关闭按钮*/
+        .window-dialog-header-close{
+            width: 20px;
+    		height: 20px;
+            float: right;
+            margin-right: 5px;
+    		margin-top: 5px;
+            display: block;
+            color: #dddddd;
+            font-weight: 700;
+            font-size: 21px;
+			line-height: 1;
+			color: #bbb;
+			text-shadow: 0px 1px 0 #bbb;
+        }
+        /*底部*/
+        .window-dialog-header-close:hover{
+        	color: #000;
+			cursor: pointer;
+        }
+        /*身体*/
+        .window-dialog-body{
+            min-height: 10px;
+            border-bottom: 1px solid #e5e5e5;
+        }
+        /*底部*/
+        .window-dialog-footer{
+            min-height: 16.428571429px;
+        }
+        
+        /*滤镜
+         *
+         */
+        .filter{
+            position: fixed;
+            left: 0%;
+            top: 0%;
+            right:0;
+            bottom: 0%;
+            z-index: 1030;
+            background-color: #000000;
+            filter:alpha(opacity=50);
+            -moz-opacity:0.5;
+            -khtml-opacity: 0.5;
+            opacity: 0.5;
+            display: none;
+        }	 
