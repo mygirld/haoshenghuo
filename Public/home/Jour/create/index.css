@@ -1,0 +1,91 @@
+.main{
+    width: auto;
+    margin: 0px;
+    /*margin-right: 220px;*/
+    padding:10px;
+    position: relative;
+    background-color: #3b3262;
+    zoom: 1;
+    position: relative;
+}
+.main .left{
+    width: 290px;
+    border: 1px solid #d5d5d5;
+    margin: 10px 0px 10px 10px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.main .left .block{
+    background-color: #716b7a;
+    height: 100px;
+    /*margin-bottom: 15px;*/
+    margin:0px 10px 15px 10px ;
+}
+.main #edit{
+    min-width:400px;
+    width: auto;
+    /*290+10*/
+    margin-left: 300px;
+    background-color: #d5d5d5;
+}
+.main #edit .nav{
+    width: 100%;
+    margin: 0px;
+    padding-bottom: 10px;
+    background-color: #F0F0EE;
+}
+.main #edit .nav ul{
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+.main #edit .nav ul li{
+    height: 25px;
+    line-height: 25px;
+    padding: 0px 10px;
+    float: left;
+}
+.main #edit .nav ul li a{
+    display: block;
+    padding: 0px 20px;
+    border:  1px solid #A0A0A0;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.main #edit .nav ul li a:hover{
+    background-color: #d5d5d5;
+}
+.main #edit .nav ul li a.active{
+    background-color: #d5d5d5;
+}
+.main #edit .nav ul li.b{
+    margin: 0px 2px;
+    padding: 0px;
+}
+.main #edit .nav ul span{
+    border-left:  1px solid #A0A0A0;
+}
+.main #edit .nav .title{
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.main #edit .nav .title input#input{
+    /*display: ;*/
+    width: 500px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 15px;
+    /*border-bottom: 0px;*/
+
+}
+.main #edit .nav .title a{
+    margin-right: 20px;
+    position: relative;
+    left: 10px;
+}
+.main #edit .nav .title a:hover{
+    color: #00a2d4;
+    cursor: pointer;
+}

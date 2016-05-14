@@ -11,7 +11,7 @@
         base:{
             baseRoot:'',
             baseModule:'',
-            baseController:'',
+            baseController:''
         },
         //ajax参数
         ajax:{
@@ -20,13 +20,13 @@
             ajaxDataType:'',
             ajaxData:null,
             ajaxError:null,
-            ajaxSuccess:null,
+            ajaxSuccess:null
         },
         //用户相关
         user:{
             userId:'',
             userName:''
-        },
+        }
     };
     if(window && window.document){
         return window.WG=haoshenghuo;
@@ -38,8 +38,7 @@ $(function(){
     $(function () {
         $(window).scroll(function(){
             var windowPos=parseInt($(window).scrollTop());
-            console.log(windowPos);
-            if (windowPos>100 ){
+            if (windowPos>-1 ){
                 $("#website-tool").fadeIn(1500);
             }else {
                 $("#website-tool").fadeOut(1500);
@@ -52,3 +51,4 @@ $(function(){
         });
     });
 });
+ 

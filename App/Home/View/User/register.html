@@ -12,9 +12,9 @@
             <div class="set_main">
                 <form class="form-horizontal" style="margin: 40px 303px;">
                     <div class="form-group">
-                        <label for="phone-num" class="col-sm-2 control-label" >绑定手机</label>
+                        <label for="account" class="col-sm-2 control-label" >帐号</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="phone-num" placeholder="绑定手机">
+                            <input type="text" class="form-control" id="account" placeholder="手机号/ 邮箱">
                         </div>
                     </div>
                     <div class="form-group">
@@ -24,15 +24,20 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="confron-password" class="col-sm-2 control-label" >确认密码</label>
+                        <label for="confrom-password" class="col-sm-2 control-label" >确认密码</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="confron-password" placeholder="确认密码">
+                            <input type="text" class="form-control" id="confrom-password" placeholder="确认密码">
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-10">
-                            <button type="submit" id="submit-save" class="btn btn-primary">注册</button>
-                            <a href="__CONTROLLER__/login" style="position: absolute;right: 10px;top: 8px;    font-size: 12px;color: #42cab0;">已有帐号?</a>
+                            <a href="__CONTROLLER__/login" style=" float: right; font-size: 12px;color: #42cab0;">已有帐号?</a>
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" id="submit" class="btn btn-primary" style="width: 100%;margin-top:4px">注册</button>
                         </div>
                     </div>
                 </form>
@@ -42,5 +47,5 @@
 </block>
 <!-- 引入具体页面的javascript -->
 <block name="javascript">
-    <!--<script type="text/javascript" src="__PUBLIC__/Home/View/index/js/index.js" ></script>-->
+    <script type="text/javascript" src="/Public/home/User/register/inde.js" ></script>
 </block>
