@@ -1,17 +1,19 @@
+#container .header{display: none !important;}
 .main{
     width: auto;
     margin: 0px;
     /*margin-right: 220px;*/
-    padding:10px;
+    /*padding:10px;*/
     position: relative;
-    background-color: #3b3262;
+    background-color: #d5d5d5;
     zoom: 1;
     position: relative;
 }
 .main .left{
-    width: 290px;
+    width: 220px;
+    height: 600px;
     border: 1px solid #d5d5d5;
-    margin: 10px 0px 10px 10px;
+    /*margin: 10px 0px 10px 10px;*/
     background-color: #FFFFFF;
     position: absolute;
     top: 0px;
@@ -24,22 +26,28 @@
     margin:0px 10px 15px 10px ;
 }
 .main #edit{
-    min-width:400px;
-    width: auto;
+    min-width: 650px;
+    width:auto;
     /*290+10*/
-    margin-left: 300px;
+    margin-left: 220px;
     background-color: #d5d5d5;
+    border: 1px solid #d5d5d5;
 }
 .main #edit .nav{
     width: 100%;
     margin: 0px;
-    padding-bottom: 10px;
+    border-left: 1px solid #d5d5d5;
     background-color: #F0F0EE;
 }
 .main #edit .nav ul{
     height: 30px;
     margin: 0px;
     padding: 0px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-bottom: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
 }
 .main #edit .nav ul li{
     height: 25px;
@@ -67,25 +75,38 @@
 .main #edit .nav ul span{
     border-left:  1px solid #A0A0A0;
 }
+/*标题
+*/
 .main #edit .nav .title{
-    margin-top: 10px;
-    padding-left: 10px;
+    position: relative;
+    padding: 10px 0px;
 }
-.main #edit .nav .title input#input{
-    /*display: ;*/
-    width: 500px;
-    height: 30px;
-    line-height: 30px;
-    padding: 0px 15px;
-    /*border-bottom: 0px;*/
+.ui-datepicker-calendar a{
+    text-align: center !important;
 
 }
-.main #edit .nav .title a{
-    margin-right: 20px;
-    position: relative;
-    left: 10px;
+.hasDatepicker{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 5px ;
 }
-.main #edit .nav .title a:hover{
-    color: #00a2d4;
-    cursor: pointer;
+.main #edit .nav .title #title{
+    margin-left: 20px;
+    padding-left: 10px;
+    width: 30%;
+    height: 30px;
+    line-height: 30px;
 }
+.main #edit .nav .title span{
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 20px;
+}
+.main #edit .nav .title  select{
+    height: 30px;
+}
+#datepicker{
+    width: 100px;
+}
+

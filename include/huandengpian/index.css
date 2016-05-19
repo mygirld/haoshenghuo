@@ -1,0 +1,114 @@
+li{list-style: none}
+#pic{
+    width: 100%;
+    height: 200px;
+    margin: 0px auto;
+    position: relative;
+    background-color: #333333;
+    /*background-image: url("./img/2.png");*/
+    zoom:1;
+}
+#pic .text{
+    position: absolute;
+    top: 85px;
+    z-index: 3;
+    color: #ffffff;
+    font-weight: bolder;
+    opacity: 0.6;
+    /*background-color: #000000;*/
+    /*200-30=170/2=85*/
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0 10px;
+}
+#pic .text:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+#pic #prev{
+    left: 0px;
+}
+#pic #next{
+    right: 0px;
+}
+#pic #title{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    text-indent: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 20px;
+    background-color: #000000;
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    opacity:0.5;
+    position: absolute;
+    top: 0px;
+    z-index: 111111111;
+    display: none;
+}
+#imgBox{
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    position: relative;
+}
+#imgBox img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    z-index: 2;
+}
+#imgBox #shadow{
+    width: 100%;
+    height: 100%;
+    line-height: 330px;
+    text-align: center;
+    color: red;
+    font-weight: bolder;
+    position: absolute;
+    top:2px;
+    left: 2px;
+    opacity: 0.2;
+    background-color: #ffffff;
+    z-index: 1;
+}
+#oUl{
+    /*background-color: #000;*/
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 8px;
+    opacity: 0.6;
+    position: absolute;
+    bottom: 0px;
+    z-index: 100;
+}
+.selected{
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    background-color: #aaa ;
+    display: inline-block;
+}
+.selected:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.selected.active{
+    background-color: red;
+}
+/*缩略图*/
+.aSmallImg{
+    position: fixed;
+    width: 100px;
+    height: 50px;
+    background-color: blanchedalmond;
+    z-index: 10000000;
+    display: none;
+    background-size: 100%;
+}
