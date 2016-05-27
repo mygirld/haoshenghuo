@@ -98,13 +98,13 @@
                 <ul>
                     <li><a href="http://www.haoshenghuo.com">主页</a></li>
                     <li class="b"><span></span></li>
-                    <li><a href="" class="active" >日记</a></li>
+                    <li><a href="http://www.haoshenghuo.com/index.php/Home/Jour/create" class="active">日记</a></li>
                     <li class="b"><span></span></li>
-                    <li><a href="http://www.haoshenghuo.com/index.php/Home/Plan/create">计划</a></li>
+                    <li><a href="http://www.haoshenghuo.com/index.php/Home/Plan/create"   >计划</a></li>
                     <li class="b"><span></span></li>
-                    <li><a href="">重要事件</a></li>
+                    <li><a href="http://www.haoshenghuo.com/index.php/Home/ImportantEvent/create"  >重要事件</a></li>
                     <li class="b"><span></span></li>
-                    <li><a href="">时间仓</a></li>
+                    <li><a href="http://www.haoshenghuo.com/index.php/Home/TimeRestory/create">时间仓</a></li>
                 </ul>
                 <div class="title">
                     <input type="text" id="title" placeholder="一句话概括今天的事情吧" title="这是日记的标题">
@@ -127,7 +127,7 @@
                 </div>
             </div>
             <textarea id="editor_id" name="content" style="background-color: #00b7ee">
-               &nbsp; &nbsp;写点什么吧....
+               &nbsp; &nbsp;今天真实太棒了....
             </textarea>
         </div>
     </div>
@@ -188,9 +188,11 @@
             window.editor = K.create('#editor_id',{
                 width:"100%",
                 height:"500px",
-                items:[
-                    'source', '|', 'undo', 'redo'
-                ],
+              //ke-icon-image
+                items : [
+                    'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold', 'italic', 'underline',
+                    'removeformat', '|', 'justifyleft', 'justifycenter', 'justifyright', 'insertorderedlist',
+                    'insertunorderedlist', '|','image'],
 //                langType : 'zh-CN',
                 filterMode:false,
                 //编辑html模式

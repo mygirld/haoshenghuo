@@ -22,7 +22,6 @@ class SafeModel extends Model{
         // 执行HTTP请求
         curl_setopt($ch , CURLOPT_URL , $url);
         $res = curl_exec($ch);
-
         return json_decode($res);
     }
 

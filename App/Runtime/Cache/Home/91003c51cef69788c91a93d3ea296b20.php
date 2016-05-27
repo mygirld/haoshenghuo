@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/include/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/Public/home/base/css/base.css">
     <link rel="stylesheet" href="/include/simpleWindow/css/simpleWindow.css">
+    <!--juqeryUI-->
     
 </head>
 <body>
@@ -21,7 +22,8 @@
             <!--<li><a href="/index.php/Home/Jour/create" id="jour">日记</a></li><li><a href="/index.php/Home/Plan/create" >计划</a></li><li><a href="/index.php/Home/ImportantEvent/create">重要事件</a></li><li><a href="/index.php/Home/TimeRestory/create">时间仓</a></li>-->
         </ul>
         <ul class="enter">
-            <li><a href="/index.php/Home/User/login">登录</a></li><li><a href="/index.php/Home/User/register">注册</a></li>
+            <li><a href="/index.php/Home/User/login">登录</a></li>
+            <!--<li><a href="/index.php/Home/User/register">注册</a></li>-->
         </ul>
     </div>
     <!--主题内容main-->
@@ -30,7 +32,7 @@
     <div id="website-tool">
         <ul>
             <li><span class="iconfont back-to-top" >&#xe613;</span></li>
-            <li><a href="/index.php/Home/Jour/create"><span class="iconfont create-jour" >&#xe615;</span></a></li>
+            <li><a href="/index.php/Home/Jour/create" title="日记/计划/时间仓...."><span class="iconfont create-jour" >&#xe615;</span></a></li>
             <li><a href="/index.php/Home/Plan/create"><span class="iconfont create-jour" >&#xe614;</span></a></li>
         </ul>
     </div>
@@ -40,15 +42,13 @@
 </footer>
 <!--JS-->
 
-<script type="text/javascript" src="/include/jquery.min.js"></script>
+<script type="text/javascript" src="/include/jquery/jquery.min.js"></script>
 <script type="text/javascript" src="/Public/home/base/js/base.js"></script>
-<script type="text/javascript" src="/include/jquery.min.js"></script>
 <script type="text/javascript" src="/include/simpleWindow/js/simpleWindow.js"></script>
 <script type="text/javascript" src="/include/doMove.js"></script>
-<script type="text/javascript">
-    //IE不兼容
-//    var WG= WG();
-</script>
+<!--Juqeryui-->
+<link rel="stylesheet" href="//apps.bdimg.com/libs/jqueryui/1.10.4/css/jquery-ui.min.css">
+<script src="//apps.bdimg.com/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
 
 
 </body>

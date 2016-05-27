@@ -35,14 +35,17 @@
 }
 .main #edit .nav{
     width: 100%;
+    height: 604px;
     margin: 0px;
     background-color: #F0F0EE;
     border: 1px solid #d5d5d5;
     border-bottom: 0px solid #fff;
+    overflow: auto;
 }
 .main #edit .nav ul{
     height: 30px;
     margin: 0px;
+    margin-bottom: 50px;
     padding: 0px;
     padding-bottom: 40px;
     padding-top: 10px;
@@ -75,10 +78,14 @@
 }
 .main #edit .nav ul span{
     border-left:  1px solid #A0A0A0;
+
 }
 /*标题
 */
 .main #edit .nav .title{
+    display: block;
+    margin: 10px auto;
+    width: 440px;
     position: relative;
     padding: 10px 0px;
 }
@@ -91,33 +98,40 @@
     line-height: 30px;
     padding-left: 5px ;
 }
-.main #edit .nav .title #title{
-    margin-left: 20px;
+.main #edit .nav .title .input{
+    margin-left: 10px;
     padding-left: 10px;
-    width: 30%;
+    width: 214px;
     height: 30px;
     line-height: 30px;
+    margin-right: 30px;
+}
+.main #edit .nav .title #title{
+    margin-left: 4px;
 }
 .main #edit .nav .title span{
     display: inline-block;
     height: 20px;
     line-height: 20px;
-    margin-left: 20px;
 }
-.main #edit .nav .title  select{
-    height: 30px;
+
+.main #edit .nav .title .add{
+    position: absolute;right: 0px;padding: 4px 30px;background: #fff;
 }
-#datepicker{
+.main #edit .nav .title .add:hover span{
+    color: #f0f0f0;
+    cursor: pointer;
+}
+.main #edit .nav .title .add:hover {
+    cursor: pointer;
+    background-color: #716b7a;
+}
+
+.main #edit .nav .title .add span{
+    font-size: 20px;color: #848484;
+}
+
+.datepicker{
     width: 100px;
-}
-/*
-*/
-.ke-container {
-    display: block;
-    /*border: 1px solid #CCCCCC !important;*/
-    border-bottom:0px solid #CCCCCC !important;
-    background-color: #FFF;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
+    margin-left: 10px;
 }
