@@ -1,6 +1,12 @@
 /**
  * Created by Administrator on 2016/5/10.
  */
+if(sessionStorage.sk_userName?sessionStorage.sk_userName:localStorage.sk_userName){
+    $(".enter").hide();
+
+}else{
+    //返回索引页
+}
 // backChange();
 function backChange() {
     var main =$(".main")[0];
@@ -94,9 +100,5 @@ function palyPercent() {
 // },50);
 
 
-function Fkey(){
-    var WsShell = new ActiveXObject('WScript.Shell')
-    WsShell.SendKeys('{F11}');
-}
-Fkey();
+
  

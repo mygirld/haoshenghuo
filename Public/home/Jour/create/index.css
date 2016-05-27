@@ -11,7 +11,7 @@
 }
 .main .left{
     width: 220px;
-    height: 600px;
+    height:605px;
     border: 1px solid #d5d5d5;
     /*margin: 10px 0px 10px 10px;*/
     background-color: #FFFFFF;
@@ -29,15 +29,16 @@
     min-width: 650px;
     width:auto;
     /*290+10*/
-    margin-left: 220px;
+    margin-left: 219px;
     background-color: #d5d5d5;
-    border: 1px solid #d5d5d5;
+    border: 0px solid #d5d5d5;
 }
 .main #edit .nav{
     width: 100%;
     margin: 0px;
-    border-left: 1px solid #d5d5d5;
     background-color: #F0F0EE;
+    border: 1px solid #d5d5d5;
+    border-bottom: 0px solid #fff;
 }
 .main #edit .nav ul{
     height: 30px;
@@ -109,4 +110,14 @@
 #datepicker{
     width: 100px;
 }
-
+/*
+*/
+.ke-container {
+    display: block;
+    /*border: 1px solid #CCCCCC !important;*/
+    border-bottom:0px solid #CCCCCC !important;
+    background-color: #FFF;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}

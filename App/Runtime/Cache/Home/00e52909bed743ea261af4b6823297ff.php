@@ -24,7 +24,8 @@
             <!--<li><a href="/index.php/Home/Jour/create" id="jour">日记</a></li><li><a href="/index.php/Home/Plan/create" >计划</a></li><li><a href="/index.php/Home/ImportantEvent/create">重要事件</a></li><li><a href="/index.php/Home/TimeRestory/create">时间仓</a></li>-->
         </ul>
         <ul class="enter">
-            <li><a href="/index.php/Home/User/login">登录</a></li><li><a href="/index.php/Home/User/register">注册</a></li>
+            <li><a href="/index.php/Home/User/login">登录</a></li>
+            <!--<li><a href="/index.php/Home/User/register">注册</a></li>-->
         </ul>
     </div>
     <!--主题内容main-->
@@ -226,21 +227,6 @@
 <!--Juqeryui-->
 <link rel="stylesheet" href="//apps.bdimg.com/libs/jqueryui/1.10.4/css/jquery-ui.min.css">
 <script src="//apps.bdimg.com/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
-
-<script type="text/javascript">
-    //IE不兼容
-//    var WG= WG();
-    /*提示
-     * */
-    $(function() {
-        $( document ).tooltip({
-            position: {
-                my: "center bottom-10",
-                at: "center top"
-            }
-        });
-    });
-</script>
 
     <script type="text/javascript" src="/Public/home/Index/index.js" ></script>
     <!--幻灯片-->

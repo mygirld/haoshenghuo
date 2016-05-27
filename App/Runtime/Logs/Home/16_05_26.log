@@ -1,0 +1,1691 @@
+[ 2016-05-26T16:07:05+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.357020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.357020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.042003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.043003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.064004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.064004s ]
+
+[ 2016-05-26T16:07:09+08:00 ] 127.0.0.1 /index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.013001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.013001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T16:18:23+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-05-26T16:19:03+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 1146:Table 'souke.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+ERR: 1146:Table 'souke.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2016-05-26T16:21:03+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sk_user` [ RunTime:0.0740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019001s ]
+
+[ 2016-05-26T16:21:14+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sk_user` [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T16:21:35+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sk_user` [ RunTime:0.0220s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::register(), called in D:\www\haoshenghuo\App\Home\Controller\UserController.class.php on line 10 and defined D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T16:22:11+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sk_user` [ RunTime:0.0190s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::register(), called in D:\www\haoshenghuo\App\Home\Controller\UserController.class.php on line 10 and defined D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 40 行.
+ERR: 1146:Table 'souke.safe' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `safe`
+ERR: 1146:Table 'souke.safe' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `safe`
+
+[ 2016-05-26T16:22:25+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sk_user` [ RunTime:0.0270s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::register(), called in D:\www\haoshenghuo\App\Home\Controller\UserController.class.php on line 10 and defined D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `sk_user` [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T16:23:10+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'souke.sp_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_user`
+ERR: 1146:Table 'souke.sp_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_user`
+
+[ 2016-05-26T16:23:25+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0260s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::register(), called in D:\www\haoshenghuo\App\Home\Controller\UserController.class.php on line 10 and defined D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-05-26T16:25:36+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0140s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::register(), called in D:\www\haoshenghuo\App\Home\Controller\UserController.class.php on line 10 and defined D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0130s ]
+NOTIC: [2] require(1): failed to open stream: No such file or directory D:\www\haoshenghuo\App\Home\Model\SafeModel.class.php 第 9 行.
+
+[ 2016-05-26T16:25:53+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0260s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::register(), called in D:\www\haoshenghuo\App\Home\Controller\UserController.class.php on line 10 and defined D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T16:25:59+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0240s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::register(), called in D:\www\haoshenghuo\App\Home\Controller\UserController.class.php on line 10 and defined D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T16:26:10+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0240s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::register(), called in D:\www\haoshenghuo\App\Home\Controller\UserController.class.php on line 10 and defined D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T16:26:22+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0230s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::register(), called in D:\www\haoshenghuo\App\Home\Controller\UserController.class.php on line 10 and defined D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-05-26T16:27:40+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0180s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::register(), called in D:\www\haoshenghuo\App\Home\Controller\UserController.class.php on line 10 and defined D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-05-26T16:27:58+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0210s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::register(), called in D:\www\haoshenghuo\App\Home\Controller\UserController.class.php on line 10 and defined D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-05-26T16:29:16+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0220s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::register(), called in D:\www\haoshenghuo\App\Home\Controller\UserController.class.php on line 10 and defined D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-05-26T16:29:36+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0240s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::register(), called in D:\www\haoshenghuo\App\Home\Controller\UserController.class.php on line 10 and defined D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-05-26T16:30:27+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0180s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::register(), called in D:\www\haoshenghuo\App\Home\Controller\UserController.class.php on line 10 and defined D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-05-26T16:35:33+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-05-26T16:42:47+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T16:42:49+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T16:43:15+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-05-26T16:50:32+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0250s ]
+NOTIC: [8] Undefined index: password D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 44 行.
+SQL: INSERT INTO `sp_user` (`phoneNumber`,`password`) VALUES ('18946036570',NULL) [ RunTime:0.0230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-05-26T16:51:13+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0200s ]
+NOTIC: [8] Undefined index: password D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 44 行.
+SQL: INSERT INTO `sp_user` (`phoneNumber`,`password`) VALUES ('18946036570',NULL) [ RunTime:0.0220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T16:52:01+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: password D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 44 行.
+SQL: INSERT INTO `sp_user` (`phoneNumber`,`password`) VALUES ('18946036570',NULL) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T16:52:14+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0230s ]
+NOTIC: [8] Undefined index: password D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 44 行.
+SQL: INSERT INTO `sp_user` (`phoneNumber`,`password`) VALUES ('18946036570',NULL) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-05-26T16:52:56+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0240s ]
+NOTIC: [8] Undefined index: password D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 44 行.
+SQL: INSERT INTO `sp_user` (`phoneNumber`,`password`) VALUES ('18946036570',NULL) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T16:53:15+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0200s ]
+NOTIC: [8] Undefined index: password D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 44 行.
+SQL: INSERT INTO `sp_user` (`phoneNumber`,`password`) VALUES ('18946036570',NULL) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T16:53:40+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T16:54:01+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T16:54:20+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T16:54:33+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T16:54:43+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T16:54:51+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T16:55:51+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T16:56:12+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T16:56:23+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T16:56:42+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T16:57:43+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:00:14+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'isOnline=1' at line 1
+ [ SQL语句 ] : update sk_user set token='46f28b40591472449d8280f386a8bbc0' isOnline=1
+
+[ 2016-05-26T17:00:29+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1146:Table 'haoshenghuo.sk_user' doesn't exist
+ [ SQL语句 ] : update sk_user set token='f5163b12a490a215f8b2bdeab0e34c2e', isOnline=1
+
+[ 2016-05-26T17:00:58+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:02:02+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'token='ed33f6912dd7e6ca035083288a42d2c6', isOnline=1' at line 1
+ [ SQL语句 ] : update sp_user set userName='18946036570' token='ed33f6912dd7e6ca035083288a42d2c6', isOnline=1
+
+[ 2016-05-26T17:02:11+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:06:48+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:09:01+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:09:25+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:09:43+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:10:00+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:10:02+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:10:29+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:10:32+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:10:34+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-05-26T17:10:54+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:11:36+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:11:44+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:12:30+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:12:41+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:12:46+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:12:51+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:13:42+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:13:58+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:14:12+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:14:58+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:15:05+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:16:06+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:16:28+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:18:40+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:22:00+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:22:56+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:26:24+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:26:39+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:27:00+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:27:38+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:27:52+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:28:04+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:28:08+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:28:12+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:28:19+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:28:29+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:28:37+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:29:15+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:29:33+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:30:21+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:30:33+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:31:19+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:31:21+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:31:23+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:31:33+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:32:01+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:32:06+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:32:08+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:32:14+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:32:16+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:33:04+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:34:03+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:34:09+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-05-26T17:34:16+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:44:55+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:44:55+08:00 ] 127.0.0.1 /index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:45:11+08:00 ] 127.0.0.1 /index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:46:00+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+NOTIC: [8] Trying to get property of non-object D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 63 行.
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 68 行.
+SQL: INSERT INTO `sp_user` (`phoneNumber`,`password`) VALUES ('18946036570','cd63272f507ea4f73bc20c9335456468') [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: update sp_user set userName='18946036570',token='29d4cbe63ba9900889f226eed32b007d',  isOnline=1 [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 82 行.
+NOTIC: [8] Undefined index: phoneNumber D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:46:15+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015601s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0200s ]
+NOTIC: [8] Trying to get property of non-object D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 63 行.
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: update sp_user set userName='18946036570',token='39a4c9339ad4927332b8e045b0f1a5a8',  isOnline=1 [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 82 行.
+NOTIC: [8] Undefined index: phoneNumber D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:46:31+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+NOTIC: [8] Trying to get property of non-object D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 63 行.
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0010s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0010s ]
+SQL: update sp_user set userName='18946036570',token='f60e0663f090a0a3ede02885835482c4',  isOnline=1 [ RunTime:0.0010s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 82 行.
+NOTIC: [8] Undefined index: phoneNumber D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011000s ]
+
+[ 2016-05-26T17:46:47+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0080s ]
+NOTIC: [8] Trying to get property of non-object D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 63 行.
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0010s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0010s ]
+SQL: update sp_user set userName='18946036570',token='b66bd1948a9aba7444e420db8ecb633d',  isOnline=1 [ RunTime:0.0010s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 82 行.
+NOTIC: [8] Undefined index: phoneNumber D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-05-26T17:47:02+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0110s ]
+NOTIC: [8] Trying to get property of non-object D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 63 行.
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0010s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0010s ]
+SQL: update sp_user set userName='18946036570',token='2bfe7d87dd1d63a60f498afbfb409edf',  isOnline=1 [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 82 行.
+NOTIC: [8] Undefined index: phoneNumber D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-05-26T17:47:02+08:00 ] 127.0.0.1 /index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:47:18+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0130s ]
+NOTIC: [8] Trying to get property of non-object D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 63 行.
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 68 行.
+SQL: INSERT INTO `sp_user` (`phoneNumber`,`password`) VALUES ('18946036570','cd63272f507ea4f73bc20c9335456468') [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: update sp_user set userName='18946036570',token='4308d55280e1aba8dee2b12c8fd8cc2d',  isOnline=1 [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 82 行.
+NOTIC: [8] Undefined index: phoneNumber D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:47:18+08:00 ] 127.0.0.1 /index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:47:21+08:00 ] 127.0.0.1 /index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:47:48+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+NOTIC: [8] Trying to get property of non-object D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 63 行.
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:47:58+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0130s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0010s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-05-26T17:48:45+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-05-26T17:48:54+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0010s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-05-26T17:49:38+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:51:31+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+NOTIC: [8] Trying to get property of non-object D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 63 行.
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:51:47+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+NOTIC: [8] Trying to get property of non-object D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 63 行.
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:52:03+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+NOTIC: [8] Trying to get property of non-object D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 63 行.
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:52:19+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0312s ]
+NOTIC: [8] Trying to get property of non-object D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 63 行.
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:52:35+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+NOTIC: [8] Trying to get property of non-object D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 63 行.
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:52:51+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+NOTIC: [8] Trying to get property of non-object D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 63 行.
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:53:06+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0312s ]
+NOTIC: [8] Trying to get property of non-object D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 63 行.
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:53:21+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:53:22+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0312s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:53:24+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:53:26+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:53:28+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:53:29+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:53:31+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0312s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-05-26T17:53:42+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 68 行.
+SQL: INSERT INTO `sp_user` (`phoneNumber`,`password`) VALUES ('18946036570','2873bbd4da4acf339c1e3ca44ecbb461') [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: update sp_user set userName='18946036570',token='6dc2d0d440476728417440fc28825db3',  isOnline=1 [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 82 行.
+NOTIC: [8] Undefined index: phoneNumber D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:54:13+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0312s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0156s ]
+SQL: update sp_user set userName='18946036570',token='6fbf3fb8bbce6c2d8baf582d5ddb845e',  isOnline=1 [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 82 行.
+NOTIC: [8] Undefined index: phoneNumber D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:54:38+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:55:27+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:55:42+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:55:57+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:56:09+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:56:19+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:56:26+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:56:37+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0322s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: update sp_user set userName='18946036570',token='c0a42958e9725c8e44e4d60d1d91cfbc',  isOnline=1 [ RunTime:0.0156s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 82 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:56:57+08:00 ] 127.0.0.1 /index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:57:20+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:57:23+08:00 ] 127.0.0.1 /index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:57:32+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0246s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' D:\www\haoshenghuo\App\Home\Controller\UserController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'phoneNumber' D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 60 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-05-26T17:57:44+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' D:\www\haoshenghuo\App\Home\Controller\UserController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+NOTIC: [2] Illegal string offset 'phoneNumber' D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 60 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:58:02+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0312s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 68 行.
+SQL: INSERT INTO `sp_user` (`phoneNumber`,`password`) VALUES ('18946036570','82c4e95d7074f186d2a1a350d3967a5c') [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0156s ]
+SQL: update sp_user set userName='18946036570',token='1c9ec0091cc7ff3314655c0dfd09db85',  isOnline=1 [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 82 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:58:24+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: update sp_user set userName='18946036570',token='15775dcd209823a0e267d6881b6d2f22',  isOnline=1 [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 82 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:58:48+08:00 ] 127.0.0.1 /index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:58:56+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T17:58:57+08:00 ] 127.0.0.1 /index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T17:59:05+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0166s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 68 行.
+SQL: INSERT INTO `sp_user` (`phoneNumber`,`password`) VALUES ('18946036570','82c4e95d7074f186d2a1a350d3967a5c') [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: update sp_user set userName='18946036570',token='2ccad49544210f10598be1178418070a',  isOnline=1 [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T18:01:23+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0010s ]
+SQL: update sp_user set userName='18946036570',token='c76e0311deedd13a30ae50f3cf210245',  isOnline=1 [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-05-26T18:01:27+08:00 ] 127.0.0.1 /index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T18:01:36+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0030s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: update sp_user set userName='18946036570',token='9f1af9a718d86adc41e30be978fc167a',  isOnline=1 [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T18:01:43+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0312s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: update sp_user set userName='18946036570',token='1bba0368c552d32b46e2b4e78fb2e23e',  isOnline=1 [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T18:01:49+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T18:02:37+08:00 ] 127.0.0.1 /index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T18:02:45+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0020s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: update sp_user set userName='18946036570',token='7f11626daf946c844882e47d27e2a3ca',  isOnline=1 [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0156s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T18:03:28+08:00 ] 127.0.0.1 /index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T18:03:39+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0226s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0100s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: update sp_user set userName='18946036570',token='4f1baa3c3313fd4d3eca7406706b865d',  isOnline=1 [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T18:03:40+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T18:10:00+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T18:10:01+08:00 ] 127.0.0.1 /index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T18:10:09+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0166s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: update sp_user set userName='18946036570',token='3f8b118f6e6e322b01d72a027b64c446',  isOnline=1 [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-05-26T18:10:46+08:00 ] 127.0.0.1 /index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T18:10:56+08:00 ] 127.0.0.1 /index.php/Home/User/queryLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0312s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+SQL: update sp_user set userName='18946036570',token='30059779b438eba5ed54a759c191896b',  isOnline=1 [ RunTime:0.0000s ]
+SQL: select * from sp_user WHERE phoneNumber='18946036570' [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\www\haoshenghuo\App\Home\Model\UserModel.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-05-26T18:10:56+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T18:12:04+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T18:14:23+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T18:15:35+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-05-26T18:15:46+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T18:16:01+08:00 ] 127.0.0.1 /index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T18:16:15+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T18:16:36+08:00 ] 127.0.0.1 /index.php/Home/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T18:17:16+08:00 ] 127.0.0.1 /index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T18:17:23+08:00 ] 127.0.0.1 /index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T18:18:12+08:00 ] 127.0.0.1 /index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T18:18:25+08:00 ] 127.0.0.1 /index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T18:43:35+08:00 ] 127.0.0.1 /index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.065004s ]
+
+[ 2016-05-26T18:43:42+08:00 ] 127.0.0.1 /index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-26T18:43:56+08:00 ] 127.0.0.1 /index.php/Home/User/sendShortMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.1404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-26T18:44:59+08:00 ] 127.0.0.1 /index.php/Home/User/sendShortMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-05-26T18:46:25+08:00 ] 127.0.0.1 /index.php/Home/User/sendShortMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+

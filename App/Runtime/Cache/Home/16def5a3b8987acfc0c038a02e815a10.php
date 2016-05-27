@@ -24,7 +24,8 @@
             <!--<li><a href="/index.php/Home/Jour/create" id="jour">日记</a></li><li><a href="/index.php/Home/Plan/create" >计划</a></li><li><a href="/index.php/Home/ImportantEvent/create">重要事件</a></li><li><a href="/index.php/Home/TimeRestory/create">时间仓</a></li>-->
         </ul>
         <ul class="enter">
-            <li><a href="/index.php/Home/User/login">登录</a></li><li><a href="/index.php/Home/User/register">注册</a></li>
+            <li><a href="/index.php/Home/User/login">登录</a></li>
+            <!--<li><a href="/index.php/Home/User/register">注册</a></li>-->
         </ul>
     </div>
     <!--主题内容main-->
@@ -40,7 +41,7 @@
                     <div class="form-group">
                         <label for="account" class="col-sm-2 control-label" >帐号</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="account" placeholder="手机号/ 邮箱">
+                            <input type="text" class="form-control" id="account" placeholder="手机号">
                         </div>
                     </div>
                     <div class="form-group">
@@ -80,7 +81,7 @@
             <div class="form-group">
                 <label for="account" class="col-sm-2 control-label" >帐号</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" id="target-account" placeholder="手机号/ 邮箱" style=" display: inline-block;
+                    <input type="text" class="form-control" id="target-account" placeholder="手机号" style=" display: inline-block;
     width: 200px;  ">
                     <button type="submit" id="get-verify-code" class="btn btn-primary" style="    position: relative;
     top: -1px;">获取验证码</button>
