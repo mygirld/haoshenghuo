@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="/include/simpleWindow/css/simpleWindow.css">
     <!--juqeryUI-->
     
-    <link rel="stylesheet" href="/Public/home/Plan/create/index.css">
+    <link rel="stylesheet" href="/Public/home/ImportantEvent/create/index.css">
 
 </head>
 <body>
@@ -96,7 +96,7 @@
         <div id="edit">
             <div class="nav">
                 <ul>
-                    <li><a href="http://www.haoshenghuo.com">主页</a></li>
+                    <!--<li><a href="http://www.haoshenghuo.com">主页</a></li>-->
                     <li class="b"><span></span></li>
                     <li><a href="http://www.haoshenghuo.com/index.php/Home/Jour/create" >日记</a></li>
                     <li class="b"><span></span></li>
@@ -166,6 +166,12 @@
                 selectOtherMonths: true,
                 changeYear: true
             });
+            /*自动选择今日
+             * */
+            $.datepicker._gotoToday = function (id) {
+                $(id).datepicker('setDate', new Date()).datepicker('hide').blur();
+            };
+            $.datepicker._gotoToday(".datepicker");
         });
     </script>
 

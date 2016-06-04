@@ -96,7 +96,7 @@
         <div id="edit">
             <div class="nav">
                 <ul>
-                    <li><a href="http://www.haoshenghuo.com">主页</a></li>
+                    <!--<li><a href="http://www.haoshenghuo.com">主页</a></li>-->
                     <li class="b"><span></span></li>
                     <li><a href="http://www.haoshenghuo.com/index.php/Home/Jour/create" >日记</a></li>
                     <li class="b"><span></span></li>
@@ -109,7 +109,8 @@
                 <div class="title">
                     <!--<input type="text" id="title" placeholder="Ta的账号" style="display: block;    margin-bottom: 0px;width: 200px" title="这是日记的标题">-->
                     <input type="text" id="title" placeholder="Ta的账号" title="这是日记的标题">
-                    <span>拆信日期 <span class="iconfont" id="cxri" title="拆新日期是允许对方看信的起始日期，在那之前对方看到信件却无法读取信件的内容" style="font-size: 10px;margin: 0px;">&#xe62c;</span> </span>
+                    <span>拆信日期</span>
+                    <span class="iconfont" id="cxri" title="拆新日期是允许对方看信的起始日期，在那之前对方看到信件却无法读取信件的内容" style="font-size: 10px;margin: 0px;">&#xe62c;</span>
                     <input type="text" id="datepicker">
                     <div type="submit" style="position: absolute;right: 50px ;top: 6px;    height: 35px;
                     line-height: 35px;
@@ -166,6 +167,12 @@
                 selectOtherMonths: true,
                 changeYear: true
             });
+            /*自动选择今日
+             * */
+            $.datepicker._gotoToday = function (id) {
+                $(id).datepicker('setDate', new Date()).datepicker('hide').blur();
+            };
+            $.datepicker._gotoToday("#datepicker");
         });
     </script>
     <script charset="utf-8" src="/include/kindeditor/kindeditor.js"></script>
@@ -189,7 +196,7 @@
                 //指定主题风格，可设置”default”、”simple”，指定simple时需要引入simple.css。
                 //是否可以拖到变化大小
                 //2或1或0，2时可以拖动改变宽度和高度，1时只能改变高度，0时不能拖动。
-                resizeType:0
+                resizeType:2
 //                themeType : 'default',
                 //是否可以编辑 默认是true，可以编辑
 //                designMode:false

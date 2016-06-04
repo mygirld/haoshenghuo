@@ -60,9 +60,7 @@
                     <li class="list">
                         <a class="title">日记</a>
                         <ul>
-                            <li>小明</li>
-                            <li>小白</li>
-                            <li>小黑</li>
+                            <?php if(is_array($jourList)): foreach($jourList as $k=>$vo): ?><li><?php echo ($vo["date"]); ?> &nbsp;&nbsp;&nbsp;&nbsp;<?php echo ($vo["title"]); ?></li><?php endforeach; endif; ?>
                         </ul>
                     </li>
                     <li class="list">
@@ -96,7 +94,7 @@
         <div id="edit">
             <div class="nav">
                 <ul>
-                    <li><a href="http://www.haoshenghuo.com">主页</a></li>
+                    <!--<li><a href="http://www.haoshenghuo.com">主页</a></li>-->
                     <li class="b"><span></span></li>
                     <li><a href="http://www.haoshenghuo.com/index.php/Home/Jour/create" class="active">日记</a></li>
                     <li class="b"><span></span></li>
@@ -105,29 +103,27 @@
                     <li><a href="http://www.haoshenghuo.com/index.php/Home/ImportantEvent/create"  >重要事件</a></li>
                     <li class="b"><span></span></li>
                     <li><a href="http://www.haoshenghuo.com/index.php/Home/TimeRestory/create">时间仓</a></li>
+                    <li style="    float: none;
+    position: absolute;
+    right: 50px;"><a style="    border: 0px solid #A0A0A0; "><?php echo ($userName); ?></a></li>
                 </ul>
                 <div class="title">
                     <input type="text" id="title" placeholder="一句话概括今天的事情吧" title="这是日记的标题">
                     <span>日期</span>
                     <input type="text" id="datepicker">
                     <span>天气</span>
-                    <select name="" id="">
+                    <select name="weather" >
                         <option value="">晴天</option>
                         <option value="">阴天</option>
                         <option value="">雾霾</option>
                         <option value="">暴雨</option>
                     </select>
 
-                    <button type="submit"   class="btn btn-default"
-                            style="position: absolute;right: 50px ;top: 6px;    height: 35px;
-    line-height: 35px;
-    padding-top: 0px;"
-
-                    >保存</button>
+                    <button type="submit"   class="btn btn-default save">保存</button>
                 </div>
             </div>
             <textarea id="editor_id" name="content" style="background-color: #00b7ee">
-               &nbsp; &nbsp;今天真实太棒了....
+               &nbsp; &nbsp;今天真是太棒了....
             </textarea>
         </div>
     </div>
@@ -153,86 +149,14 @@
 <link rel="stylesheet" href="//apps.bdimg.com/libs/jqueryui/1.10.4/css/jquery-ui.min.css">
 <script src="//apps.bdimg.com/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
 
+    <!--编辑器插件-->
+    <script charset="utf-8" src="/include/kindeditor/kindeditor.js"></script>
     <!--好友列表-->
     <link rel="stylesheet" href="/include/ul/index.css">
     <script type="text/javascript" src="/include/ul/index.js" ></script>
-    <script>
-        $(function() {
-            $.datepicker.regional["zh-CN"] = {
-                closeText: "关闭",
-                prevText: "&#x3c;上月",
-                nextText: "下月&#x3e;",
-                currentText: "今天",
-                monthNames: ["一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月"], monthNamesShort: ["一", "二", "三", "四", "五", "六", "七", "八", "九", "十", "十一", "十二"], dayNames: ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"],
-                dayNamesShort: ["周日", "周一", "周二", "周三", "周四", "周五", "周六"],
-                dayNamesMin: ["日", "一", "二", "三", "四", "五", "六"],
-                weekHeader: "周", dateFormat: "yy-mm-dd", firstDay: 1, isRTL: !1, showMonthAfterYear: !0, yearSuffix: "年"
-            }
-            $.datepicker.setDefaults($.datepicker.regional["zh-CN"]);
-            var datePicker = $( "#datepicker" ).datepicker({
-                showOtherMonths: true,
-                selectOtherMonths: true,
-                changeYear: true
-            });
-        });
+    <script type="text/javascript" src="/Public/home/Jour/create/index.js" ></script>
 
 
-    </script>
-    <script charset="utf-8" src="/include/kindeditor/kindeditor.js"></script>
-    <!--<script charset="utf-8" src="/include/kindeditor/lang/zh-CN.js"></script>-->
-    <script>
-        KindEditor.ready(function(K) {
-            //创建编辑器
-            //#editor_id 是选择器，满足各种css选择器，如果选择到多个textarea,那么只是第一个有效
-            //第二个参数是选项
-            window.editor = K.create('#editor_id',{
-                width:"100%",
-                height:"500px",
-              //ke-icon-image
-                items : [
-                    'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold', 'italic', 'underline',
-                    'removeformat', '|', 'justifyleft', 'justifycenter', 'justifyright', 'insertorderedlist',
-                    'insertunorderedlist', '|','image'],
-//                langType : 'zh-CN',
-                filterMode:false,
-                //编辑html模式
-//                wellFormatMode:true,
-                //指定主题风格，可设置”default”、”simple”，指定simple时需要引入simple.css。
-                //是否可以拖到变化大小
-                //2或1或0，2时可以拖动改变宽度和高度，1时只能改变高度，0时不能拖动。
-                resizeType:0
-//                themeType : 'default',
-                //是否可以编辑 默认是true，可以编辑
-//                designMode:false
-                //有问题
-//                fullscreenMode:true
-                //undo/redo文字输入最小变化长度，当输入的文字变化小于这个长度时不会添加到undo记录里。
-                //就是说，当前一次保存的输入字符和这次相比小于5的时候，重复和撤销操作无效
-                //有问题
-//                minChangeSize:5,
-                //uploadJson
-                //指定上传文件的服务器端程序。
-
-            });
-             // 设置HTML内容
-//            editor.html('');
-            // 取得HTML内容
-            html = editor.html();
-
-            // 同步数据后可以直接取得textarea的value
-            //KindEditor的可视化操作在新创建的iframe上执行，代码模式下的textarea框也是新创建的，
-            // 所以最后提交前需要执行 sync() 将HTML数据设置到原来的textarea。
-            //KindEditor在默认情况下自动寻找textarea所属的form元素，找到form后onsubmit事件里添加sync函数，所以用form方式提交数据，
-            // 不需要手动执行sync()函数。
-            //KindEditor默认采用白名单过滤方式，可用 htmlTags 参数定义要保留的标签和属性。当然也可以用 filterMode 参数关闭过滤模式，
-            // 保留所有标签。
-            editor.sync();
-            value = document.getElementById('editor_id').value; // 原生API
-
-            //            html = K('#editor_id').val(); // KindEditor Node API
-            //            html = $('#editor_id').val(); // jQuery
-        });
-    </script>
 
 
 </body>

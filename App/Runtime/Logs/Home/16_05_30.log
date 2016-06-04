@@ -1,0 +1,20 @@
+[ 2016-05-30T15:50:13+08:00 ] 127.0.0.1 /index.php/Home/Jour/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T15:50:18+08:00 ] 127.0.0.1 /index.php/Home/Plan/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T15:50:19+08:00 ] 127.0.0.1 /index.php/Home/ImportantEvent/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T15:50:19+08:00 ] 127.0.0.1 /index.php/Home/TimeRestory/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+

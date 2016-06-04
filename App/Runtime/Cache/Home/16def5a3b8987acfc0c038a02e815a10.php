@@ -130,21 +130,6 @@
 <link rel="stylesheet" href="//apps.bdimg.com/libs/jqueryui/1.10.4/css/jquery-ui.min.css">
 <script src="//apps.bdimg.com/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
 
-<script type="text/javascript">
-    //IE不兼容
-//    var WG= WG();
-    /*提示
-     * */
-    $(function() {
-        $( document ).tooltip({
-            position: {
-                my: "center bottom-10",
-                at: "center top"
-            }
-        });
-    });
-</script>
-
     <script type="text/javascript" src="/Public/home/User/login/index.js" ></script>
 
 
