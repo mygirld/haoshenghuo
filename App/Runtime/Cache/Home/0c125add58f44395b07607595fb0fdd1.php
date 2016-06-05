@@ -60,7 +60,7 @@
                     <li class="list">
                         <a class="title">日记</a>
                         <ul>
-                            <?php if(is_array($jourList)): foreach($jourList as $k=>$vo): ?><li><a style="    display: block;"  href="http://www.haoshenghuo.com/index.php/Home/Jour/selectJourContent?jourId=<?php echo ($vo["jourid"]); ?>"><?php echo ($vo["title"]); ?></a></li><?php endforeach; endif; ?>
+                            <?php if(is_array($jourList)): foreach($jourList as $k=>$vo): ?><li><a style="    display: block;" href="http://www.haoshenghuo.com/index.php/Home/Jour/selectJourContent?jourId=<?php echo ($vo["jourid"]); ?>"><?php echo ($vo["title"]); ?></a></li><?php endforeach; endif; ?>
                         </ul>
                     </li>
                     <li class="list">
@@ -92,39 +92,8 @@
             </div>
         </div>
         <div id="edit">
-            <div class="nav">
-                <ul>
-                    <!--<li><a href="http://www.haoshenghuo.com">主页</a></li>-->
-                    <li class="b"><span></span></li>
-                    <li><a href="http://www.haoshenghuo.com/index.php/Home/Jour/create" class="active">日记</a></li>
-                    <li class="b"><span></span></li>
-                    <li><a href="http://www.haoshenghuo.com/index.php/Home/Plan/create"   >计划</a></li>
-                    <li class="b"><span></span></li>
-                    <li><a href="http://www.haoshenghuo.com/index.php/Home/ImportantEvent/create"  >重要事件</a></li>
-                    <li class="b"><span></span></li>
-                    <li><a href="http://www.haoshenghuo.com/index.php/Home/TimeRestory/create">时间仓</a></li>
-                    <li style="    float: none;
-    position: absolute;
-    right: 50px;"><a style="    border: 0px solid #A0A0A0; "><?php echo ($userName); ?></a></li>
-                </ul>
-                <div class="title">
-                    <input type="text" id="title" placeholder="一句话概括今天的事情吧" title="这是日记的标题">
-                    <span>日期</span>
-                    <input type="text" id="datepicker">
-                    <span>天气</span>
-                    <select name="weather" >
-                        <option value="">晴天</option>
-                        <option value="">阴天</option>
-                        <option value="">雾霾</option>
-                        <option value="">暴雨</option>
-                    </select>
-
-                    <button type="submit"   class="btn btn-default save">保存</button>
-                </div>
-            </div>
-            <textarea id="editor_id" name="content" style="background-color: #00b7ee">
-               &nbsp; &nbsp;今天真是太棒了....
-            </textarea>
+            <?php if(is_array($selectJourContent)): foreach($selectJourContent as $k=>$vo): ?><li><?php echo ($vo["title"]); ?> &nbsp;&nbsp;&nbsp;&nbsp;<?php echo ($vo["date"]); ?>|<?php echo ($vo["weather"]); ?></li><?php endforeach; endif; ?>
+            <div><?php echo ($contentfile); ?></div>
         </div>
     </div>
 

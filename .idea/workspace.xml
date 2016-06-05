@@ -5,27 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6aff1245-50cd-4cad-9c7f-4064e9b90551" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Runtime/Logs/Home/16_05_29.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Runtime/Logs/Home/16_05_30.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/home/Jour/create/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Home/Controller/JourController.class.php" afterPath="$PROJECT_DIR$/App/Home/Controller/JourController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Home/View/ImportantEvent/create.html" afterPath="$PROJECT_DIR$/App/Home/View/ImportantEvent/create.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Home/Model/JourModel.class.php" afterPath="$PROJECT_DIR$/App/Home/Model/JourModel.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Home/View/Jour/create.html" afterPath="$PROJECT_DIR$/App/Home/View/Jour/create.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Home/View/Plan/create.html" afterPath="$PROJECT_DIR$/App/Home/View/Plan/create.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Home/View/TimeRestory/create.html" afterPath="$PROJECT_DIR$/App/Home/View/TimeRestory/create.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Home/16def5a3b8987acfc0c038a02e815a10.php" afterPath="$PROJECT_DIR$/App/Runtime/Cache/Home/16def5a3b8987acfc0c038a02e815a10.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Home/8280ac1fbb32e7fd835d098d14340757.php" afterPath="$PROJECT_DIR$/App/Runtime/Cache/Home/8280ac1fbb32e7fd835d098d14340757.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Home/8b33788be9c88076a0e64034dac87671.php" afterPath="$PROJECT_DIR$/App/Runtime/Cache/Home/8b33788be9c88076a0e64034dac87671.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Home/ad5b491a1f9abad1a1fcd377efe94cc4.php" afterPath="$PROJECT_DIR$/App/Runtime/Cache/Home/ad5b491a1f9abad1a1fcd377efe94cc4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Home/ecded556d25a5c4dc3929874d1e68f30.php" afterPath="$PROJECT_DIR$/App/Runtime/Cache/Home/ecded556d25a5c4dc3929874d1e68f30.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/home/ImportantEvent/create/index.css" afterPath="$PROJECT_DIR$/Public/home/ImportantEvent/create/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/home/Jour/create/index.css" afterPath="$PROJECT_DIR$/Public/home/Jour/create/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/home/Plan/create/index.css" afterPath="$PROJECT_DIR$/Public/home/Plan/create/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/home/Plan/create/index.js" afterPath="$PROJECT_DIR$/Public/home/Plan/create/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/home/TimeRestory/create/index.css" afterPath="$PROJECT_DIR$/Public/home/TimeRestory/create/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/home/base/css/base.css" afterPath="$PROJECT_DIR$/Public/home/base/css/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/home/Jour/create/index.js" afterPath="$PROJECT_DIR$/Public/home/Jour/create/index.js" />
     </list>
     <ignored path="haoshenghuo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,16 +32,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MessageModel.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Home/Model/MessageModel.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Public/home/Jour/create/index.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -67,25 +42,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Home/View/Jour/create.html">
+      <file leaf-file-name="UserModel.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Home/Model/UserModel.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+            <state relative-caret-position="805">
+              <caret line="78" column="32" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
               <folding>
-                <element signature="n#style#0;n#li#8;n#ul#0;n#div#0;n#div#1;n#div#0;n#block#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#8;n#ul#0;n#div#0;n#div#1;n#div#0;n#block#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#textarea#0;n#div#1;n#div#0;n#block#1;n#!!top" expanded="true" />
+                <marker date="1464256717993" expanded="true" signature="691:829" placeholder="update sk_us... " />
+                <marker date="1464256717993" expanded="true" signature="1722:1792" placeholder="select * fro... sp_user" />
+                <marker date="1464256717993" expanded="true" signature="2080:2150" placeholder="select * fro... sp_user" />
+                <marker date="1464256717993" expanded="true" signature="2362:2452" placeholder="update sp_us... " />
+                <marker date="1464256717993" expanded="true" signature="2518:2588" placeholder="select * fro... sp_user" />
+                <marker date="1464256717993" expanded="true" signature="3291:3373" placeholder="update sk_us... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Public/home/Jour/create/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+            <state relative-caret-position="318">
+              <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/ul/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -94,9 +82,33 @@
       <file leaf-file-name="JourController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Home/Controller/JourController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+            <state relative-caret-position="48">
+              <caret line="27" column="37" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="37" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="selectJourContent.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Home/View/Jour/selectJourContent.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="36" column="67" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="67" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#li#0;n#foreach#0;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#block#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/App/Home/View/Jour/create.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#li#0;n#foreach#0;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#block#1;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,29 +116,22 @@
       <file leaf-file-name="JourModel.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Home/Model/JourModel.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="60" column="79" selection-start-line="60" selection-start-column="79" selection-end-line="60" selection-end-column="79" />
+            <state relative-caret-position="98">
+              <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
               <folding>
-                <marker date="1465055228305" expanded="true" signature="777:808" placeholder="select * fro... sp_jour" />
-                <marker date="1465055228305" expanded="true" signature="777:818" placeholder="select * fro... sp_jour" />
-                <marker date="1465055228305" expanded="true" signature="777:832" placeholder="select * fro... sp_jour" />
-                <marker date="1465055228305" expanded="true" signature="980:1018" placeholder="select * fro... sp_user" />
-                <marker date="1465055228305" expanded="true" signature="1189:1255" placeholder="insert into sp_jour... " />
-                <marker date="1465055228305" expanded="true" signature="1189:1379" placeholder="insert into sp_jour... " />
-                <marker date="1465055228305" expanded="true" signature="1808:1846" placeholder="select * fro... sp_user" />
-                <marker date="1465055228305" expanded="true" signature="1961:1997" placeholder="select * fro... sp_user" />
-                <marker date="1465055228305" expanded="true" signature="1961:2025" placeholder="select * fro... sp_jour" />
+                <marker date="1465099321432" expanded="true" signature="777:808" placeholder="select * fro... sp_jour" />
+                <marker date="1465099321432" expanded="true" signature="777:818" placeholder="select * fro... sp_jour" />
+                <marker date="1465099321432" expanded="true" signature="777:832" placeholder="select * fro... sp_jour" />
+                <marker date="1465099321432" expanded="true" signature="980:1018" placeholder="select * fro... sp_user" />
+                <marker date="1465099321432" expanded="true" signature="1189:1255" placeholder="insert into sp_jour... " />
+                <marker date="1465099321432" expanded="true" signature="1189:1379" placeholder="insert into sp_jour... " />
+                <marker date="1465099321432" expanded="true" signature="1808:1846" placeholder="select * fro... sp_user" />
+                <marker date="1465099321432" expanded="true" signature="1961:1997" placeholder="select * fro... sp_user" />
+                <marker date="1465099321432" expanded="true" signature="1961:2025" placeholder="select * fro... sp_jour" />
+                <marker date="1465099321432" expanded="true" signature="2182:2220" placeholder="select * fro... sp_user" />
+                <marker date="1465099321432" expanded="true" signature="2335:2394" placeholder="select * fro... sp_jour" />
+                <marker date="1465099321432" expanded="true" signature="2335:2424" placeholder="select * fro... sp_jour" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -172,7 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/App/Home/View/Index/intro.html" />
         <option value="$PROJECT_DIR$/App/Home/View/Chat/index.html" />
         <option value="$PROJECT_DIR$/Public/home/User/register/index.css" />
         <option value="$PROJECT_DIR$/Public/home/User/login/index.css" />
@@ -190,7 +194,6 @@
         <option value="$PROJECT_DIR$/include/ul/index.css" />
         <option value="$PROJECT_DIR$/Public/home/Index/index.css" />
         <option value="$PROJECT_DIR$/App/Home/View/Index/index.html" />
-        <option value="$PROJECT_DIR$/include/ul/index.js" />
         <option value="$PROJECT_DIR$/App/Home/Conf/config.php" />
         <option value="$PROJECT_DIR$/App/Home/Model/UserModel.class.php" />
         <option value="$PROJECT_DIR$/Public/home/base/js/base.js" />
@@ -219,10 +222,12 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/Public/home/Jour/create/index.css" />
         <option value="$PROJECT_DIR$/../index.php" />
-        <option value="$PROJECT_DIR$/App/Home/Controller/JourController.class.php" />
         <option value="$PROJECT_DIR$/App/Home/Model/JourModel.class.php" />
-        <option value="$PROJECT_DIR$/App/Home/View/Jour/create.html" />
         <option value="$PROJECT_DIR$/Public/home/Jour/create/index.js" />
+        <option value="$PROJECT_DIR$/include/ul/index.js" />
+        <option value="$PROJECT_DIR$/App/Home/Controller/JourController.class.php" />
+        <option value="$PROJECT_DIR$/App/Home/View/Jour/selectJourContent.html" />
+        <option value="$PROJECT_DIR$/App/Home/View/Jour/create.html" />
       </list>
     </option>
   </component>
@@ -236,10 +241,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="52" />
-    <option name="y" value="132" />
+    <option name="x" value="237" />
+    <option name="y" value="91" />
     <option name="width" value="1227" />
-    <option name="height" value="666" />
+    <option name="height" value="718" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -320,7 +325,65 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Jour" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="create" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="haoshenghuo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="haoshenghuo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Index" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="haoshenghuo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="haoshenghuo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="haoshenghuo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="haoshenghuo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ul" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -375,6 +438,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="haoshenghuo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="haoshenghuo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Jour" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -544,18 +633,18 @@
       <workItem from="1464317053776" duration="22809000" />
       <workItem from="1464498853289" duration="11473000" />
       <workItem from="1464931728065" duration="715000" />
-      <workItem from="1465012339048" duration="15731000" />
+      <workItem from="1465012339048" duration="19197000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173181000" />
+    <option name="totallyTimeSpent" value="176647000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="52" y="132" width="1227" height="666" extended-state="1" />
+    <frame x="237" y="91" width="1227" height="718" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27506426" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17309341" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -613,7 +702,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/2-带缩略图的多图切换.html" />
     <entry file="file://$PROJECT_DIR$/include/huandengpian/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1675">
@@ -655,14 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/ul/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="22" column="12" selection-start-line="17" selection-start-column="7" selection-end-line="22" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -932,10 +1012,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Public/home/Jour/create/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="124" column="29" selection-start-line="124" selection-start-column="25" selection-end-line="124" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/App/Home/Model/UserModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="49" column="9" selection-start-line="41" selection-start-column="8" selection-end-line="49" selection-end-column="9" />
+        <state relative-caret-position="805">
+          <caret line="78" column="32" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
           <folding>
             <marker date="1464256717993" expanded="true" signature="691:829" placeholder="update sk_us... " />
             <marker date="1464256717993" expanded="true" signature="1722:1792" placeholder="select * fro... sp_user" />
@@ -947,36 +1035,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/home/Jour/create/index.css">
+    <entry file="file://$PROJECT_DIR$/App/Home/Model/JourModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="124" column="29" selection-start-line="124" selection-start-column="25" selection-end-line="124" selection-end-column="29" />
+        <state relative-caret-position="98">
+          <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+          <folding>
+            <marker date="1465099321432" expanded="true" signature="777:808" placeholder="select * fro... sp_jour" />
+            <marker date="1465099321432" expanded="true" signature="777:818" placeholder="select * fro... sp_jour" />
+            <marker date="1465099321432" expanded="true" signature="777:832" placeholder="select * fro... sp_jour" />
+            <marker date="1465099321432" expanded="true" signature="980:1018" placeholder="select * fro... sp_user" />
+            <marker date="1465099321432" expanded="true" signature="1189:1255" placeholder="insert into sp_jour... " />
+            <marker date="1465099321432" expanded="true" signature="1189:1379" placeholder="insert into sp_jour... " />
+            <marker date="1465099321432" expanded="true" signature="1808:1846" placeholder="select * fro... sp_user" />
+            <marker date="1465099321432" expanded="true" signature="1961:1997" placeholder="select * fro... sp_user" />
+            <marker date="1465099321432" expanded="true" signature="1961:2025" placeholder="select * fro... sp_jour" />
+            <marker date="1465099321432" expanded="true" signature="2182:2220" placeholder="select * fro... sp_user" />
+            <marker date="1465099321432" expanded="true" signature="2335:2394" placeholder="select * fro... sp_jour" />
+            <marker date="1465099321432" expanded="true" signature="2335:2424" placeholder="select * fro... sp_jour" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/home/Jour/create/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/ul/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Home/Controller/JourController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        <state relative-caret-position="48">
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Home/Model/JourModel.class.php">
+    <entry file="file://$PROJECT_DIR$/App/Home/View/Jour/selectJourContent.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="60" column="79" selection-start-line="60" selection-start-column="79" selection-end-line="60" selection-end-column="79" />
+        <state relative-caret-position="274">
+          <caret line="36" column="67" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="67" />
           <folding>
-            <marker date="1465055228305" expanded="true" signature="777:808" placeholder="select * fro... sp_jour" />
-            <marker date="1465055228305" expanded="true" signature="777:818" placeholder="select * fro... sp_jour" />
-            <marker date="1465055228305" expanded="true" signature="777:832" placeholder="select * fro... sp_jour" />
-            <marker date="1465055228305" expanded="true" signature="980:1018" placeholder="select * fro... sp_user" />
-            <marker date="1465055228305" expanded="true" signature="1189:1255" placeholder="insert into sp_jour... " />
-            <marker date="1465055228305" expanded="true" signature="1189:1379" placeholder="insert into sp_jour... " />
-            <marker date="1465055228305" expanded="true" signature="1808:1846" placeholder="select * fro... sp_user" />
-            <marker date="1465055228305" expanded="true" signature="1961:1997" placeholder="select * fro... sp_user" />
-            <marker date="1465055228305" expanded="true" signature="1961:2025" placeholder="select * fro... sp_jour" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#foreach#0;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#block#1;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -984,20 +1093,10 @@
     <entry file="file://$PROJECT_DIR$/App/Home/View/Jour/create.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+          <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
           <folding>
-            <element signature="n#style#0;n#li#8;n#ul#0;n#div#0;n#div#1;n#div#0;n#block#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#8;n#ul#0;n#div#0;n#div#1;n#div#0;n#block#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#0;n#block#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#foreach#0;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#block#1;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/home/Jour/create/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>

@@ -62,4 +62,13 @@ class JourModel extends Model{
         $result=$this->query($sql);
         return $result;
     }
+    public function selectJourContent($jourId){
+        session_start();
+        $sql="select * from  sp_user WHERE userName={$_SESSION['userName']} ";
+        $result=$this->query($sql);
+        $userId=$result[0]['userid'];
+        $sql="select * from  sp_jour WHERE userId={$userId} AND  jourId='".$jourId."' ORDER BY date ASC ";
+        $result=$this->query($sql);
+        return $result;
+    }
 }
